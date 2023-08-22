@@ -1,0 +1,130 @@
+.navbar {
+  background-color: #3EECAC;
+  background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+
+}
+
+.navbar-brand b {
+  color: red;
+}
+
+.navbar .nav-link:hover {
+  transform: scale(1.1);
+  transition: ease 0.5s;
+  color: gray !important;
+}
+
+/* MAIN */
+.main button {
+  background-color: rgb(81, 81, 162);
+  color: white;
+}
+
+.main button:hover {
+  transform: scale(1.1);
+  transition: ease 0.5s;
+  color: gray !important;
+  background-color: black;
+  color: white !important;
+}
+
+.main .image-future img {
+  width: 100%;
+  border-radius: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+/* PRODUCT */
+.product .card {
+  border: 0;
+}
+
+.product img {
+  border-radius: 50%;
+  width: 100%;
+  height: 180px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  padding: 0 15px;
+  margin-top: 10px;
+}
+
+
+.product {
+  background-color: #3EECAC;
+  background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+
+  padding: 20px;
+}
+
+.product .card:hover {
+  background: rgba(0, 0, 0, 0);
+  transform: scale(1.1);
+  transition: ease 0.5s;
+  color: gray !important;
+  color: white !important;
+  transition: ease 0.8s;
+}
+
+/* ALBUM */
+.album-card:hover p {
+  color: red;
+  display: block;
+}
+
+.album-card p {
+  bottom: 20px;
+  left: 30px;
+  display: none;
+}
+
+.album img {
+  height: 200px;
+  width: 100%;
+  margin-bottom: 10px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.album img:hover {
+  opacity: 0.5;
+  transition: ease 0.8s;
+  cursor: pointer;
+}
+
+/* ABOUT */
+.about .col-4 {
+  box-shadow: 3px 3px 5px rgba(232, 228, 228, 0.564) !important;
+}
+
+.about .col-4 i {
+  font-size: 25px;
+  background-color: #3EECAC;
+  background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+  color: white;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.about .for-span {
+  font-size: 14px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #3EECAC;
+  background-image: linear-gradient(19deg, #3EECAC 0%, #EE74E1 100%);
+
+}
+
+.footer .list-unstyled i {
+  color: white;
+}
+
+.footer .list-unstyled i:hover {
+  transform: scale(1.1);
+  transition: ease 0.5s;
+  color: gray !important;
+}
