@@ -1,6 +1,6 @@
-# Store-SinglePage
+# Store-SinglePage||Bootsrap Project
 
-This is a single page website.
+This is a single page website that was created with HTML,CSS and Bootstrap.
 
 
 Preview : 
